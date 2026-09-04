@@ -44,7 +44,7 @@ void check(const CubeVector& cubelst)
         " NEGUNATE : " << CubeList::isNegativeUnate(cubelst) << 
         " BINATE : " << CubeList::isBinate(cubelst) << std::endl;
 }
-int main()
+int __test__cubelist()
 {
     CubeVector cubevecBinate = {new Cube(Cube::CubeType::POS), new Cube(Cube::CubeType::NEG)};
     CubeVector cubevecPosUnate = {new Cube(Cube::CubeType::POS), new Cube(Cube::CubeType::POS), new Cube(Cube::CubeType::DNC)};

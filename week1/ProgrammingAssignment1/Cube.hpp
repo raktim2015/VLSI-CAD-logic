@@ -31,6 +31,7 @@ class Cube
         void setDontCare();
 
         friend std::ostream& operator<<(std::ostream& os, const Cube& cube);
+        friend std::ostream& operator<<(std::ostream& os, const Cube* cube);
 
 };
 

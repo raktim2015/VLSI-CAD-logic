@@ -37,6 +37,14 @@ std::ostream& operator<<(std::ostream& os, const Cube* cube)
     return os;
 }
 
+std::ostream& operator<<(std::ostream& os, const Cube& cube)
+{
+    if (cube.isPositive()) os << "01";
+    else if(cube.isNegative()) os << "10";
+    else if(cube.isDontCare()) os << "11";
+    return os;
+}
+
 int __test__cube()
 {
     Cube* pos = new Cube(Cube::CubeType::POS);
