@@ -18,7 +18,16 @@ class Complement {
         void setExpressions(const int& expressions) {
             m_expressions = expressions;
         }
+        CubeCubeVector& getPCN() { return m_pcn; }
         void initializeEmptyCubeList();
-        void displayPCN(const std::string& msg);
-        void findComplement();
+        void displayPCN(const std::string& msg, const CubeCubeVector& pcn);
+        CubeCubeVector findComplement(CubeCubeVector pcn_cube);
+        int findVariableSplit(const CubeCubeVector& cube);
+        CubeCubeVector positiveCofactor(int var_ind, const CubeCubeVector& cube);
+        CubeCubeVector negativeCofactor(int var_ind, const CubeCubeVector& cube);
+        CubeCubeVector pcnAnd(int posneg, int var_ind, const CubeCubeVector& pcn_cube);
+        CubeCubeVector pcnOr(const CubeCubeVector& cube1, const CubeCubeVector& cube2);
+        CubeCubeVector complementCube(const CubeCubeVector& cube);
+        void convertCubeToOutput(const CubeCubeVector& cube);
+
 };

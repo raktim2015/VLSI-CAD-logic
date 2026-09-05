@@ -38,6 +38,38 @@ bool CubeList::isBinate(const CubeVector& cubelist)
     return (binateCheck==3) ? true : false;
 }
 
+int CubeList::countPositive(const CubeVector& cube)
+{
+    int count = 0;
+    for (const auto& elem : cube)
+        count += (elem->isPositive()) ? 1 : 0;
+    return count;
+}
+bool CubeList::isOne(const CubeVector& cube)
+{
+    for (const auto& elem : cube) {
+        if (!(elem->isDontCare()))
+            return false;
+    }
+    return true;
+}
+
+int CubeList::countNegative(const CubeVector& cube)
+{
+    int count = 0;
+    for (const auto& elem : cube)
+        count += (elem->isNegative()) ? 1 : 0;
+    return count;
+}
+
+int CubeList::countDNC(const CubeVector& cube)
+{
+    int count = 0;
+    for (const auto& elem : cube)
+        count += (elem->isDontCare()) ? 1 : 0;
+    return count;
+}
+
 void check(const CubeVector& cubelst)
 {
     std::cout << "POSUNATE : " << CubeList::isPositiveUnate(cubelst) << 
