@@ -345,7 +345,7 @@ void Complement::convertCubeToOutput(const CubeCubeVector& cube)
 
 int main()
 {
-    static std::string FILE1 { "/Users/raktim/Documents/coursera/VLSI-CAD-logic/week1/ProgrammingAssignment1Files/UnateRecursiveComplement/part1.pcn" };
+    static std::string FILE1 { "/Users/raktim/Documents/coursera/VLSI-CAD-logic/week1/ProgrammingAssignment1Files/UnateRecursiveComplement/part5.pcn" };
     Complement *pcn = new Complement();
     pcn->parse(FILE1);
     CubeCubeVector res = pcn->findComplement(pcn->getPCN());
