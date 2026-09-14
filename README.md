@@ -1,10 +1,10 @@
-Course materials and assignments for VLSI-CAD Logic course on Coursera
-https://www.coursera.org/learn/vlsi-cad-logic
+Course materials and assignments for VLSI-CAD Logic course on Coursera  
+https://www.coursera.org/learn/vlsi-cad-logic  
 
-Topics covered:
-
-Week-1
-	Introduction
+Topics covered:  
+<br></br>
+Week-1  
+&emsp;Introduction  
 
 Week-2
 	1) 	Shanon's expansion
