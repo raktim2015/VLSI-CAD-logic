@@ -2,24 +2,24 @@ Course materials and assignments for VLSI-CAD Logic course on Coursera
 https://www.coursera.org/learn/vlsi-cad-logic  
 
 Topics covered:  
-<br></br>
+<br/><br/>
 Week-1  
-&emsp;Introduction  
-
+&emsp;Introduction.   
+<br/><br/>
 Week-2
-	1) 	Shanon's expansion
-	2) 	Cofactor. Single and multi-variable cofactoring.
-	3) 	Properties of cofactor
-	4) 	Derivate of a boolean function. (Boolean difference)
-	5) 	Universal and existential quantification
-	6) 	Network repair
-	7) 	Positional Cube Notation
-	8) 	Recursive tautology checking
-	9) 	Implementation of Unate Recursive Paradigm (URP)
-	10) Complement of a function using URP
-
-Week-3
-	a)	BDD
+&emsp;1) &emsp;Shanon's expansion<br/>
+&emsp;2) &emsp;Cofactor. Single and multi-variable cofactoring.<br/>
+&emsp;3) &emsp;Properties of cofactor<br/>
+&emsp;4) &emsp;Derivate of a boolean function. (Boolean difference)<br/>
+&emsp;5) &emsp;Universal and existential quantification<br/>
+&emsp;6) &emsp;Network repair<br/>
+&emsp;7) &emsp;Positional Cube Notation<br/>
+&emsp;8) &emsp;Recursive tautology checking<br/>
+&emsp;9) &emsp;Implementation of Unate Recursive Paradigm (URP)<br/>
+&emsp;10)&emsp;Complement of a function using URP<br/>
+<br/>
+Week-3.  
+	&emsp;a)	BDD
 		1)	Binary Decision Diagram (BDD) and Reduced Ordered Binary Decision Diagram (ROBDD)
 		2) 	Reduction rules from BDD to ROBDD
 		3) 	Building BDD incremenatally. Divide and Conquer
